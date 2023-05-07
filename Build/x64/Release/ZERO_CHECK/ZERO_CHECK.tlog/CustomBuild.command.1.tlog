@@ -1,0 +1,10 @@
+^C:\GITSTORE\TQENGINE\BUILD\CMAKEFILES\2FC6967C5B251D28D2124239E05A818F\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe -SC:/GitStore/TQEngine -BC:/GitStore/TQEngine/Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/GitStore/TQEngine/Build/TQEngine.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
