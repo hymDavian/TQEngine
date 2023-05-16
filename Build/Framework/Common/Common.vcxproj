@@ -266,6 +266,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\GitStore\TQEngine\Framework\Common\BaseApplication.cpp" />
+    <ClCompile Include="C:\GitStore\TQEngine\Framework\Common\GraphicsManager.cpp" />
     <ClCompile Include="C:\GitStore\TQEngine\Framework\Common\main.cpp" />
   </ItemGroup>
   <ItemGroup>

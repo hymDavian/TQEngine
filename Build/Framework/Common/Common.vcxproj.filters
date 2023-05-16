@@ -4,6 +4,9 @@
     <ClCompile Include="C:\GitStore\TQEngine\Framework\Common\BaseApplication.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\GitStore\TQEngine\Framework\Common\GraphicsManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\GitStore\TQEngine\Framework\Common\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
