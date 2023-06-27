@@ -18,7 +18,6 @@ int main(int argc,char** argv)
 	}
 
 	while(!g_pApp->IsQuit()){
-		printf("aaa");
 		g_pApp->Tick();
 	}
 	g_pApp->Finalize();

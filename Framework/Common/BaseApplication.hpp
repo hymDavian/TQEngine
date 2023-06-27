@@ -1,15 +1,20 @@
 #pragma once
 #include "IApplication.hpp"
+#include "GfxConfiguration.h"
 
 namespace My
 {
-    class BaseApplication:implements IApplication{
-        public:
-            virtual int Initialize();
-            virtual void Finalize();
-            virtual void Tick();
-            virtual bool IsQuit();
-        protected:
-            bool m_bQuit;
-    };
+	class BaseApplication :implements IApplication {
+	public:
+		BaseApplication(GfxConfiguration& cfg);
+		virtual int Initialize();
+		virtual void Finalize();
+		virtual void Tick();
+		virtual bool IsQuit();
+	protected:
+		static bool m_bQuit;
+		GfxConfiguration m_Config;
+	private:
+		BaseApplication() {};
+	};
 } // namespace My

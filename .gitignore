@@ -6,3 +6,8 @@
 .vs/
 .vscode/
 **/build/
+**/Build/
+*.ilk
+*.obj
+*.pdb
+*.exe

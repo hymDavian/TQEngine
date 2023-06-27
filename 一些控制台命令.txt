@@ -1,3 +1,5 @@
 devenv /debug D:\MyCode\TQEngine\Platform\Windows\helleengine_d2d.exe //调试指定目录的程序
 clang -l user32.lib -l ole32.lib -l d2d1.lib -o helleengine_d2d.exe helloengine_d2d.cpp  //clang，使用 -l 的库 -o命名 编译 helloengine_d2d.cpp 这个c++文件
 cmake C:\GitStore\TQEngine\CMakeLists.txt  //通过cmake 沿着CMakeLists给定的目录生成 c 解决方案
+nmake或make 在build的cmake文件夹内执行，生成可执行文件
+在 build/debug文件夹下执行 cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug ..\.. 就会生成debug模式的执行版本、同理 在 /release 下执行对应参数就是release版本

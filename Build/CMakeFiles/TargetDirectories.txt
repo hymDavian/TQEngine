@@ -1,4 +1,0 @@
-C:/GitStore/TQEngine/Build/CMakeFiles/ALL_BUILD.dir
-C:/GitStore/TQEngine/Build/CMakeFiles/ZERO_CHECK.dir
-C:/GitStore/TQEngine/Build/Framework/Common/CMakeFiles/Common.dir
-C:/GitStore/TQEngine/Build/Empty/CMakeFiles/Empty.dir
